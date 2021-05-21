@@ -1,9 +1,3 @@
-<!-- <p align="center"><img width="70%" src="https://raw.githubusercontent.com/facebookresearch/CrypTen/master/docs/_static/img/CrypTen_Identity_Horizontal_Lockup_01_FullColor.png" alt="CrypTen logo" /></p>
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebookresearch/CrypTen/blob/master/LICENSE) [![CircleCI](https://circleci.com/gh/facebookresearch/CrypTen.svg?style=shield)](https://circleci.com/gh/facebookresearch/CrypTen/tree/master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/facebookresearch/CrypTen/blob/master/CONTRIBUTING.md) -->
-
---------------------------------------------------------------------------------
-
 # CryptGPU: Fast Privacy-Preserving Machine Learning on the GPU
 
 CryptGPU is a system for privacy-preserving machine learning based on secure multi-party computation (MPC).  supports end-to-end training/inference on the GPU. This implementation is according to the paper: [CryptGPU: Fast Privacy-Preserving Machine Learning on the GPU](https://arxiv.org/abs/2104.10949) by Sijun Tan, Brian Knott, Yuan Tian, David J. Wu.
