@@ -1,0 +1,6 @@
+torchvision==0.7.0
+onnx>=1.6.0
+future
+visdom>=0.1.8.8
+paramiko
+boto3
