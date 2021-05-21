@@ -21,9 +21,8 @@ If dependencies are installed through `pip3`, developers/researchers can choose 
 
 ### Building dependencies through pip
 ```bash
-git clone https://github.com/jeffreysijuntan/cryptgpu
-cd cryptgpu
-pip3 install -r requirements.txt
+git clone https://github.com/jeffreysijuntan/CryptGPU
+cd CryptGPU
 python3 setup.py install
 ```
 
@@ -51,8 +50,8 @@ python setup.py install
 
 Finally, install other dependencies for CryptGPU through `pip3`
 ```
-git clone https://github.com/jeffreysijuntan/cryptgpu
-cd cryptgpu
+git clone https://github.com/jeffreysijuntan/CryptGPU
+cd CryptGPU
 pip3 install -r requirements_source.txt
 python3 setup.py install
 ```
