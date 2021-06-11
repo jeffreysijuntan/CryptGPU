@@ -56,9 +56,6 @@ def __replicated_secret_sharing_protocol(op, x, y, *args, **kwargs):
 
     y2 = y2.view_as(y1)
 
-    if y.rep_share is not None:
-        print(y.share.shape, y.rep_share.shape)
-
     z = getattr(torch, op)(x1, y1, *args, **kwargs) + getattr(torch, op)(x1, y2, *args, **kwargs) + getattr(torch, op)(x2, y1, *args, **kwargs)
 
     rank = comm.get().get_rank()

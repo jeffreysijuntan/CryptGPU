@@ -449,7 +449,7 @@ class Module:
             if hasattr(param, "share"):
                 share = param.share 
                 if share.dim() == 2:
-                    share = share.T
+                    share = share.transpose(0,1)
                 self._parameters[name].rep_share = resharing.replicate_shares(share)
                
         # for name, buffer in self._buffers.items():
